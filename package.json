@@ -1,0 +1,19 @@
+{
+   "name": "openai-testing",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "type": "module",
+   "scripts": {
+      "start": "node script.js"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "openai": "^3.3.0"
+   },
+   "devDependencies": {
+      "webpack-cli": "^5.1.4"
+   }
+}

@@ -1,0 +1,16 @@
+{
+   "manifest_version": 3,
+   "name": "Correct My Sentence",
+   "version": "1.0",
+   "description": "Description of your extension",
+   "action": {
+      "default_popup": "index.html"
+   },
+   "permissions": ["activeTab"],
+   "icons": {
+      "512": "./assets/writing.png"
+   },
+   "background": {
+      "service_worker": "./dist/bundle.js"
+   }
+}
